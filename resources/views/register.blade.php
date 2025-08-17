@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        /* filepath: c:\xampp\htdocs\myapp\resources\views\register.blade.php
-           Updated: background image + overlay + adjusted card transparency */
+      
         html,body { height:100%; margin:0; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
-        /* full page background image (replace URL if you prefer a local image) */
+        
         body {
             background-image: linear-gradient(rgba(12,18,28,0.45), rgba(12,18,28,0.45)), url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80');
             background-size: cover;
@@ -17,7 +16,7 @@
             padding:32px;
         }
         .container { max-width:1000px; margin:0 auto; }
-        /* cards are semi-transparent so background softly shows */
+       
         .card { background: rgba(255,255,255,0.06); border-radius:12px; box-shadow:0 8px 30px rgba(2,6,23,0.45); padding:20px; margin-bottom:18px; backdrop-filter: blur(4px); }
         h1 { margin:0 0 12px; font-weight:600; color:#ecfeff; }
         h2 { color:#ecfeff; }
@@ -115,7 +114,7 @@
         @endif
     </div>
 
-    <!-- Newcomer registration card (hidden by default) -->
+   
     <div id="newcomerCard" class="card" style="display:none;">
         <h2>Register New User</h2>
         <form method="POST" action="/register">
@@ -188,7 +187,7 @@
     </div>
 </div>
 
-<!-- Toggle script for newcomer registration -->
+
 <script>
     (function(){
         const btn = document.getElementById('toggleNewcomer');

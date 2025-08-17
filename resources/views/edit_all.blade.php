@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        /* filepath: c:\xampp\htdocs\myapp\resources\views\edit_all.blade.php
-           Updated: same background + card transparency */
+       
         html,body { height:100%; margin:0; font-family:Inter, sans-serif; }
         body {
             background-image: linear-gradient(rgba(12,18,28,0.45), rgba(12,18,28,0.45)), url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80');
